@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "tpahunter",
+  "version": "${version}",
+  "name": "TPA Hunter",
+  "description": "A client-side TPA phrase tracker and inventory search workspace.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.example.tpahunter.TPAHunterClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.3",
+    "minecraft": "~1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
